@@ -1,0 +1,43 @@
+html {
+    padding: 40px;
+}
+
+body {
+    background-image: url(images/back.jpg);
+    border: 2px solid rgb(160, 160, 41);
+    padding: 45px;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    padding: 15px;
+}
+
+.film-name {
+    background-color: rgb(160, 160, 41);
+}
+
+.film-info h2 {
+    color: rgb(160, 160, 41);
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.film-info p, ul, h3, a {
+    color: rgb(160, 160, 41);
+    font-family: monospace;
+    font-size: 25px;
+}
+
+span {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid yellow;
+    padding: 2px;
+}
+
+.film-info img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
