@@ -1,0 +1,51 @@
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    background: #000;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.menu li:first-child a {
+    color: green;
+}
+
+.menu li:last-child span {
+    color: red;
+}
+
+.menu li:nth-child(3) a {
+    color: brown;
+}
+
+.menu li a::after {
+    content: ">";
+    color: red;
+    margin-left: 10px;
+}
+
+.menu li a::before {
+    content: "<";
+    color: red;
+    margin-right: 10px;
+}
+
+.menu li a::first-letter {
+    font-size: 44px;
+}
+
+input {
+    background: green;
+}
+
+input::placeholder {
+    color: red;
+}
