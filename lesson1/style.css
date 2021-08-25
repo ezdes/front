@@ -1,0 +1,55 @@
+:root {
+  --left-margin: calc(100vw - 85%);
+  --div-width: calc(100vw / 6);
+  --div-width-perc: calc(100vw - 30%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.light-gray {
+  background: #ccc;
+  height: 85px;
+  width: 205px;
+  margin-left: calc(100vw - 80%);
+}
+
+.gray {
+  background: #777;
+  height: 100px;
+  width: calc(100vw / 3);
+}
+
+.orange {
+  background: rgb(241, 215, 66);
+  height: 115px;
+  width: 281.5px;
+  margin-left: var(--left-margin);
+}
+
+.purple {
+  background: rgb(97, 75, 138);
+  height: 155px;
+  width: var(--div-width-perc);
+  margin-left: var(--left-margin);
+}
+
+.red {
+  float: left;
+  background: red;
+  height: 155px;
+  width: var(--div-width);
+  margin-left: var(--left-margin);
+}
+
+.pink {
+  background: rgb(151, 57, 128);
+  height: 155px;
+  width: var(--div-width);
+  margin-left: calc(
+    (var(--left-margin) + var(--div-width-perc)) - var(--div-width)
+  );
+}
