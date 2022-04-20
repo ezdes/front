@@ -1,0 +1,74 @@
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+header {
+    background-color: #58ebeb;
+    padding: 8px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+#div {
+    display: flex;
+}
+
+.divv {
+    padding: 40px;
+}
+
+#text {
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h2 {
+    font-style: italic;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: hsl(295, 46%, 55%);
+}
+li {
+    font-size: 20px;
+}
+
+#second_h2 {
+    background-color: rgb(212, 136, 49);
+}
+
+.contacts a {
+    display: block;
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+.contacts a:hover{
+    color: red;
+}
+
+#message {
+    background-color: rgb(117, 228, 95);
+}
+
+input, textarea, label {
+    display: block;
+}
+
+button {
+    background-color: #42d0fc;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: red;
+}
+
